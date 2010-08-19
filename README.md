@@ -14,12 +14,13 @@ This particular implementation of Scribble runs on top of Ruby on the Java Virtu
 It is currently very primitive but offers the following syntactical changes from Ruby:
 
 * gt, lt, gte, lte, eq - these are substituted for operators
+* add and times in place of + and *
 * variable allocation using !
 * one-place lambda creation using ,,
 
 What does the code look like then?
 
-    [1,2,3,4,5].map ,, x + x
+    [1,2,3,4,5].map ,, x plus x
 
 is equivalent to
 
