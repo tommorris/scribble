@@ -39,8 +39,15 @@ This will be documented and developed further, but in the spirit of [Why Day](ht
 Implementation status
 ---------------------
 
+Target language: Ruby
+
+Implementation platform: JVM via JRuby
+
 * Syntax designed - check!
 * Simple regex parser written - check!
 * Simple REPL implemented - check!
 * Compiler implemented
 * Extract as much functionality into separate Ruby module
+* Packaged as binary
+
+Ready for normal people to use? Well, it won't ever be. Normal people don't fire up REPLs over SSH connections on their iPads. Ready for geek use? Not quite yet.
