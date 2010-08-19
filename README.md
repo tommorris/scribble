@@ -17,4 +17,20 @@ It is currently very primitive but offers the following syntactical changes from
 * variable allocation using !
 * one-place lambda creation using ,,
 
-This will be documented further, but in the spirit of [Why Day](http://whyday.org/) I wanted to put it out there quickly.
+What does the code look like then?
+
+    [1,2,3,4,5].map ,, x + x
+
+is equivalent to
+
+    [1,2,3,4,5].map do |x| x + x end
+
+But requires a lot fewer keystrokes on iOS devices. Assigning variables is done like this:
+
+    a ! 5
+
+And comparison is done using the plain text operators:
+
+    5 gt 1
+
+This will be documented and developed further, but in the spirit of [Why Day](http://whyday.org/) I wanted to put it out there quickly.
