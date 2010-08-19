@@ -14,6 +14,9 @@ Scribble syntaxes need to meet these criteria:
 
 The use case for Scribble languages is simple: to use as a calculator, to simply try out an algorithm and for other rapid prototyping needs on a handheld device.
 
+This implementation: Ruby
+-------------------------
+
 This particular implementation of Scribble runs on top of Ruby on the Java Virtual Machine. It uses the JRuby JSR 223 implementation to wrap around a REPL.
 
 It is currently very primitive but offers the following syntactical changes from Ruby:
