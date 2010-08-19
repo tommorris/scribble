@@ -35,3 +35,12 @@ And comparison is done using the plain text operators:
     5 gt 1
 
 This will be documented and developed further, but in the spirit of [Why Day](http://whyday.org/) I wanted to put it out there quickly.
+
+Implementation status
+---------------------
+
+* Syntax designed - check!
+* Simple regex parser written - check!
+* Simple REPL implemented - check!
+* Compiler implemented
+* Extract as much functionality into separate Ruby module
