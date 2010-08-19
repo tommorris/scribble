@@ -7,9 +7,10 @@ Scribble syntaxes need to meet these criteria:
 
 1. Easy to write on an iOS touchscreen device without a physical keyboard.
 2. Syntax must be derived based on real-life experience of using REPL over SSH on iOS devices.
-3. Be as simple as possible and adhere to the rule of least surprise.
+3. Be as simple as possible and adhere to the rule of least surprise in both syntax and implementation.
 4. Provide a REPL.
 5. Compile down to an existing language.
+6. Be easy to run on a wide variety of platforms - it should be relatively simple to implement on, say, the JVM or CLR.
 
 The use case for Scribble languages is simple: to use as a calculator, to simply try out an algorithm and for other rapid prototyping needs on a handheld device.
 
