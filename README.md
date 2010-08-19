@@ -1,11 +1,15 @@
 Scribble
 ========
 
-Scribble is desgined to be a family of languages designed such that you can scribble them on an iPhone, iPad or iPod touch device without having to switch into the modal character insertion panel - i.e. you can write more of the language using just the characters on the main keyboard of the iOS device. Scribble languages need to meet these criteria:
+Scribble is desgined to be a family of languages designed such that you can scribble them on an iPhone, iPad or iPod touch device without having to switch into the modal character insertion panel - i.e. you can write more of the language using just the characters on the main keyboard of the iOS device.
+
+Scribble syntaxes need to meet these criteria:
 
 1. Easy to write on an iOS touchscreen device without a physical keyboard.
-2. Provide a REPL.
-3. Compile down to an existing language.
+2. Syntax must be derived based on real-life experience of using REPL over SSH on iOS devices.
+3. Be as simple as possible and adhere to the rule of least surprise.
+4. Provide a REPL.
+5. Compile down to an existing language.
 
 The use case for Scribble languages is simple: to use as a calculator, to simply try out an algorithm and for other rapid prototyping needs on a handheld device.
 
